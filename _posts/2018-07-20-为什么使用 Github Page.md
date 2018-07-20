@@ -13,3 +13,16 @@ date:   2018-07-20
 - ghost：动态博客，有本地编辑器，支持直接插入图片。但是我不想用 ghost 的编辑器，我只想用我熟悉的 Typora。
 
 Jekyll 是我最能接受的选择。
+
+我创建 github page 的方法步骤：
+
+1. git clone 我喜欢的主题 http://jekyll-new.joelglovier.com 到本地
+2. 更改配置
+   - CSS 样式
+   - 时间格式，我喜欢 `%Y-%m-%d` 格式
+   - _config.yml
+   - 删除 _posts 目录下默认的文章
+   - 更改 _includes/footer.html, _includes/header.html 文件
+   - 删除 _assets 目录下不必要的文件
+3. 在 github 创建一个新的 repository，名称为 jasonzhouu.github.io，jasonzhouu 是我的 github 账户名，github page 规定必须以自己的账户名 + github.io 的格式
+4. 将本地更改好配置的目录添加 remote, 并 `git push`
