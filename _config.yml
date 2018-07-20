@@ -1,4 +1,6 @@
 name: 周宇盛的区块链笔记
-pygments: true
-url: "zhouys.xyz"
+description: blockchain note
+url: "http://zhouys.xyz"
 permalink: /posts/:title
+markdown: kramdown
+highlighter: rouge
