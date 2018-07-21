@@ -24,5 +24,7 @@ Jekyll 是我最能接受的选择。
    - 删除 _posts 目录下默认的文章
    - 更改 _includes/footer.html, _includes/header.html 文件
    - 删除 _assets 目录下不必要的文件
+   - 删除不必要的其他页面
+   - 只需要留下这些文件和目录：_assets, css, _posts, _includes, _layouts, index.html, _config.yml, CNAME
 3. 在 github 创建一个新的 repository，名称为 jasonzhouu.github.io，jasonzhouu 是我的 github 账户名，github page 规定必须以自己的账户名 + github.io 的格式
 4. 将本地更改好配置的目录添加 remote, 并 `git push`
